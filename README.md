@@ -162,8 +162,8 @@ tax-review-pro 업데이트해줘
 - 이 저장소의 최신 Release 자산 `tax-review-pro.zip`을 받아 임시 폴더에 푼다. 받을 수 없으면 저장소를 `git clone`하고 그 안의 `tax-review-pro/` 폴더를 쓴다.
 
 **Step 3. 설치·교체**
-- 스킬 폴더에 예전 이름 `tax-review-lite`가 있으면, 이름만 바뀐 같은 스킬이라고 알리고 `tax-review-lite.bak-<날짜>`로 옮겨 둔다고 말한 뒤 사용자가 동의하면 옮긴다(두 스킬이 함께 있으면 둘 다 불릴 수 있다).
-- 스킬 폴더에 `tax-review-pro`가 이미 있으면, 그 `SKILL.md` 머리말의 `metadata.version`과 새 판을 비교해 사용자에게 알린다. 교체 전에 기존 폴더를 `tax-review-pro.bak-<날짜>`로 옮겨 둔다고 말하고, 사용자가 동의하면 교체한다.
+- 스킬 폴더에 예전 이름 `tax-review-lite`가 있으면, 이름만 바뀐 같은 스킬이라고 알리고, 스킬 폴더 밖 `.claude/skill-backups/tax-review-lite.bak-<날짜>`로 옮겨 둔다고 말한 뒤 사용자가 동의하면 옮긴다. 스킬 폴더 안에서 이름만 바꾸면 두 스킬이 함께 불릴 수 있다.
+- 스킬 폴더에 `tax-review-pro`가 이미 있으면, 그 `SKILL.md` 머리말의 `metadata.version`과 새 판을 비교해 사용자에게 알린다. 교체 전에 기존 폴더를 스킬 폴더 밖 `.claude/skill-backups/tax-review-pro.bak-<날짜>`로 옮겨 둔다고 말하고, 사용자가 동의하면 교체한다.
 - 없으면 `tax-review-pro/` 폴더를 그대로 복사한다. 폴더 이름은 바꾸지 않는다(스킬 이름과 같아야 한다).
 
 **Step 4. 검증**
